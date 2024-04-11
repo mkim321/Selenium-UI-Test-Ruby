@@ -13,18 +13,13 @@ Simple unit test using Selenium Web Driver with Ruby
 The objective of this project is to conduct simple unit tests for the login functionality of a web application using Selenium WebDriver with Ruby.
 
 ## Specification
-  
-|
-| **Selenium WebDriver (Version 3.6)** |
-| Utilized as the primary tool for browser automation and interaction with web elements.|
-| **RSpec (Version 3.7)** |
-| Employed as the testing framework for behavior-driven development (BDD) to define, execute, and analyze unit tests. |
-| **Ruby (Version 3.3.0)** |
-| Used as the programming language to write the test scripts. |
-| **Operating System** |
-| Tests are configured to run on macOS. | 
-| **Browser** |
-| local firefox and Selenium Grid remote-firefox. | 
+| Tools                                       | Description                                           |
+| ------------------------------------------- | ----------------------------------------------------- |
+| **Selenium WebDriver (Version 3.6)** |  Utilized as the primary tool for browser automation and interaction with web elements.|
+| **RSpec (Version 3.7)** |  Employed as the testing framework for behavior-driven development (BDD) to define, execute, and analyze unit tests. | 
+| **Ruby (Version 3.3.0)** | Used as the programming language to write the test scripts. |
+| **Operating System** | Tests are configured to run on macOS. | 
+| **Browser** | local firefox and Selenium Grid remote-firefox. | 
 
 ## Additional Setup Instructions
 chruby Installation: For managing multiple Ruby versions, chruby can be installed. Detailed installation instructions can be found at chruby [installation link.](https://mac.install.guide/ruby/12)   
@@ -39,9 +34,9 @@ Login Functionality Test Steps:
     6. Close the browser.
 
 ## Test Execution Results:
-Execution Time: The test successfully finishes in approximately 3.97 seconds.
-Loading Time: Files load within approximately 0.1099 seconds.
-Test Outcome: 1 example executed with 0 failures.
+* Execution Time: The test successfully finishes in approximately 3.97 seconds.
+* Loading Time: Files load within approximately 0.1099 seconds.
+* Test Outcome: 1 example executed with 0 failures.
 
 ## Test Script Execution
 Gemfile Installation: Execute the following command in the terminal to install dependencies:
