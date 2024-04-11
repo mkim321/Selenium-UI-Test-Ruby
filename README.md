@@ -26,12 +26,12 @@ chruby Installation: For managing multiple Ruby versions, chruby can be installe
 
 ## Test Scenario
 Login Functionality Test Steps:
-    1. Open the homepage.
-    2. Click on the login button.
-    3. Enter the user email and password.
-    4. Click the login button to submit.
-    5. Check for the banner indicating successful login.
-    6. Close the browser.
+1. Open the homepage.
+2. Click on the login button.
+3. Enter the user email and password.
+4. Click the login button to submit.
+5. Check for the banner indicating successful login.
+6. Close the browser.
 
 ## Test Execution Results:
 * Execution Time: The test successfully finishes in approximately 3.97 seconds.
