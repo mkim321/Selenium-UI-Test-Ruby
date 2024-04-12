@@ -7,7 +7,7 @@ username = "user@test.com"
 password = "password"
 exptected_banner_text = "You have successfully logged in!"
 
-# TEST: Log up for blog
+# TEST: Log in for blog
 describe "Blog application" do
   describe "login to the blog application" do
     it "confirm that a user can successfully login" do
