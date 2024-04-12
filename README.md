@@ -1,4 +1,4 @@
-# Selenium unit test with Ruby
+# Selenium UI test with Ruby
 
 Simple unit test using Selenium Web Driver with Ruby
 
@@ -7,6 +7,7 @@ Simple unit test using Selenium Web Driver with Ruby
 | ------------------------------------------- | ----------------------------------------------------- |
 | Project Status | Finished |
 | Project Type | Personal |
+| Last Update | 2024.04.12 |
 
 
 ## About
