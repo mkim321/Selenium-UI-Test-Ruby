@@ -17,7 +17,7 @@ describe "Blog application" do
 		@driver.navigate.to "https://selenium-blog.herokuapp.com"
 		# For Selenium Grid : Remote firefox
 		# options = Selenium::WebDriver::Options.firefox
-	    # driver = Selenium::WebDriver.for :remote, url:"http://192.168.1.46:4444", options: options
+	    # driver = Selenium::WebDriver.for :remote, url:{url}, options: options
 		
 		# Move to the login
 		login = LoginPage.new(@driver)
