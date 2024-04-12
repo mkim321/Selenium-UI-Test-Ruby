@@ -7,7 +7,7 @@ username = "user@test.com"
 password = "password"
 exptected_banner_text = "You have successfully logged in!"
 
-# TEST: Sign up for blog
+# TEST: Log up for blog
 describe "Blog application" do
   describe "login to the blog application" do
     it "confirm that a user can successfully login" do
@@ -17,7 +17,7 @@ describe "Blog application" do
 		@driver.navigate.to "https://selenium-blog.herokuapp.com"
 		# For Selenium Grid : Remote firefox
 		# options = Selenium::WebDriver::Options.firefox
-	    # driver = Selenium::WebDriver.for :remote, url:{url}, options: options
+	    	# driver = Selenium::WebDriver.for :remote, url:{url}, options: options
 		
 		# Move to the login
 		login = LoginPage.new(@driver)
